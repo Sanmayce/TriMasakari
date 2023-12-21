@@ -1,6 +1,6 @@
 # TriMasakari
 Smooth Scroll Walker, Linux/Windows GUI viewer
-
+```
 README.DIZ
 ___________        .__    _____                            __                    .__   
 \__    ___/_______ |__|  /     \  _____     ___________   |  | _______   _______ |__|  
@@ -74,3 +74,4 @@ Enfun!
 .
 Machinely yours,
 Sanmaitze
+```
