@@ -90,5 +90,5 @@ Compiling C++ code into executable...
 Output: /dz_WD_SN740/z/Trimasakari_benchmark_r3_sourcecode_ELF_EXE/trimasakari
 ```
 
-The Qb64PE compiler is at:
+The QB64PE compiler is at:  
 https://github.com/QB64-Phoenix-Edition/QB64pe/releases/
