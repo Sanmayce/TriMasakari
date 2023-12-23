@@ -78,3 +78,17 @@ Enfun!
 Machinely yours,
 Sanmaitze
 ```
+
+How to compile?
+
+```
+[sanmayce@dzvertcheto Trimasakari_benchmark_r3_sourcecode_ELF_EXE]$ /home/sanmayce/qb64/3.9.1/qb64pe -x -f:ExtraCppFlags="-O3 -ffast-math -msse4.2 -maes" trimasakari.bas
+QB64-PE Compiler V3.9.1-UNKNOWN
+Beginning C++ output from QB64 code...
+[..................................................] 100%
+Compiling C++ code into executable...
+Output: /dz_WD_SN740/z/Trimasakari_benchmark_r3_sourcecode_ELF_EXE/trimasakari
+```
+
+The Qb64PE compiler is at:
+https://github.com/QB64-Phoenix-Edition/QB64pe/releases/
