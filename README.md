@@ -12,7 +12,7 @@ ___________        .__    _____                            __                   
   |____|    |__|   |__|\____|__  /(____  //____  >(____  /|__|_ \(____  / |__|   |__|  
                                \/      \/      \/      \/      \/     \/               
 
-This is a short description of Trimasakari revision 3- - the QB64 smooth scrolling file viewer. 
+This is a short description of Trimasakari revision 3+ - the QB64 smooth scrolling file viewer. 
 In the package, ELF/EXE binaries are included, full sourcecode as well. 
 Trimasakari is an 100% free Smooth Scroll File Walker for Windows/Linux (and Mac, no binary inhere, though). 
 .
@@ -47,11 +47,15 @@ Quick keyboard input:
 - Use SLASH i.e. '/' (when inverse line is active) to enter editing current line mode, the resultant string is the Needle i.e. the search pattern, use 'Right-Shift' release to start searching;
 - Use 'F3' (release) or 'Double-Right-Shift' (when inverse line is active) to start searching in Wildcard Case-Insensitive Mode, ('*' and '#' wildcards allowed) - the hit could span two lines i.e. there will be no hit misses;
 - Use 'Left-Shift' + 'Up/Down' to Rough-Scroll one line, in WRAP mode if mouse pointer is within last 17 columns then a Vertical-Scroll-Bar (unclickable, yet) appears;
+- Use 'Left-Shift' + F5/F6 to decrease/increase the Frame Delay (controls scroll speed, when 0 fastest), in ms;
+- Use 'Shift' + F3 (when inverse line is active) to search the Needle non-interactively, same as 'F3' (release) or 'Double-Right-Shift' but finds all the hits below the inverse line;
 .
 Quick mouse input: 
 - Use 'Left Button Click' to underscore the line under the pointer; 
+- Use Left-Control + 'Left Button Click' to draw vertical line under the pointer; 
 - Use 'Right Button Click' to toggle WRAP/RAW mode, WRAP is a forced one i.e. a truncator, whereas RAW shows logical lines as physical lines, same as 'Double-Left-Shift';
 - Use 'Up/Down Wheel' to Smooth-Scroll one line, same as 'Up/Down'; 
+- Use 'Left-Shift' + 'Up/Down Wheel' to Rough-Scroll one line; 
 - Use 'Mouse Button #3' to toggle inverse line (auto-hidden when the page is scrolled), when active then search sequence is allowed, same as 'Enter'.
 .
 Quick Notes: 
@@ -62,9 +66,9 @@ Note #3: There is a bug that is a feature, change the color e.g. with two Right 
 Note #4: Running without a valid [path]filename in the clipboard the tool runs as a color/scroll benchmark, in HD mode. 
 Note #5: If e.g. you press Control+C in Caja (Linux Fedora) on selected file - the full path to that file goes to clipboard, then just run Trimasakari - it will show the content of this file (in streaming mode). 
 Note #6: The main feature is the easy on the eyes line-by-line smooth scroll, on i5-7200U CPU the scroll speed is 174 FPS for 236Cx29L, just press Spacebar to run/pause scrolling - handy to place your palm resting before the laptop touchpad. 
-Note #7: With the cheapest/palest HD screens, the default 8x32 font is [a] candy to the eyes, on fancy wide angles screens it is posssible to tilt the screen to 45 degrees without straining your eyes - the slenderness of font compensates. 
+Note #7: With the cheapest/palest HD screens, the default 8x32 font is [a] candy to the eyes, on fancy wide angles screens it is possible to tilt the screen to 45 degrees without straining your eyes - the slenderness of font compensates. 
 Note #8: In next revisions will add searchability (taken from my Dirwalker tool), the idea is to browse Wikipedia XML dump, EZ! 
-Note #9: Currently, Trimasakari is aware of five video modes: 1] 1366x768 (HD ready) with 170columns x 21rows 2] 1280x1024 (SuperXGA) with 158columns x 29rows 3] 1080x1920 (rotated FHD) with 134columns x 56rows 4] 1920x1080 (FHD) with 236columns x 29rows; 5] 1920x1080 (QFHD,4K) with 2x236columns x 2x29rows;
+Note #9: Currently, Trimasakari is aware of seven modes: 1] 1366x768 (HD ready) 2] 768x1366 (rotated HD ready) 3] 1280x1024 (SuperXGA) 4] 1920x1080 (FHD) 5] 1080x1920 (rotated FHD) 6] 2x1920 x 2x1080 (UHD,QFHD,4K) 7] 2x1080 x 2x1920 (rotated UHD,QFHD,4K).
 Note #A: Every 2 minutes a powersaving mode is activated, it is meant to save laptop's battery, a known issue is the delayed powering up via a mouse wheel/click, keyboard is okay, though.
 .
 To-do list:
@@ -73,7 +77,7 @@ To-do list:
 .
 Enfun! 
 .
-2023-December-20
+2024-January-20
 .
 Machinely yours,
 Sanmaitze
