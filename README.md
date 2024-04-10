@@ -1,5 +1,5 @@
 # TriMasakari
-Smooth Scroll Walker, Linux/Windows GUI viewer
+Smooth Scroll Walker, Linux/Windows GUI viewer/finder
 
 ![MetalFatigue](https://github.com/Sanmayce/TriMasakari/assets/14062548/186d4476-de93-48da-8630-2431b9031360)
 
