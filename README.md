@@ -1,7 +1,7 @@
 # TriMasakari
 Smooth Scroll Walker, Linux/Windows GUI viewer
 
-![TriMasakari_r3_Fedora36](https://github.com/Sanmayce/TriMasakari/assets/14062548/6b59a7fb-2995-4ffa-b7d1-77fbc5c6743c)
+![MetalFatigue](https://github.com/Sanmayce/TriMasakari/assets/14062548/186d4476-de93-48da-8630-2431b9031360)
 
 ```
 README.DIZ
